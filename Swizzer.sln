@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swizzer.Web.Api", "src\web\Swizzer.Web.Api\Swizzer.Web.Api.csproj", "{2ED19538-034E-44B9-9A4A-66026B2CF4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swizzer.Web.Infrastructure", "src\web\Swizzer.Web.Infrastructure\Swizzer.Web.Infrastructure.csproj", "{26BCAEFD-C19A-4ACB-9822-2E63C27BB3D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{8C0354E2-4FE9-411D-B7A1-5BCEF84F62C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swizzer.Shared", "src\shared\Swizzer.Shared\Swizzer.Shared.csproj", "{F0601DE0-1C7D-4B48-B1EA-98A130F61596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED19538-034E-44B9-9A4A-66026B2CF4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED19538-034E-44B9-9A4A-66026B2CF4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED19538-034E-44B9-9A4A-66026B2CF4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED19538-034E-44B9-9A4A-66026B2CF4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BCAEFD-C19A-4ACB-9822-2E63C27BB3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BCAEFD-C19A-4ACB-9822-2E63C27BB3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BCAEFD-C19A-4ACB-9822-2E63C27BB3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BCAEFD-C19A-4ACB-9822-2E63C27BB3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0601DE0-1C7D-4B48-B1EA-98A130F61596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0601DE0-1C7D-4B48-B1EA-98A130F61596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0601DE0-1C7D-4B48-B1EA-98A130F61596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0601DE0-1C7D-4B48-B1EA-98A130F61596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0601DE0-1C7D-4B48-B1EA-98A130F61596} = {8C0354E2-4FE9-411D-B7A1-5BCEF84F62C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE82446-ADF0-42FB-AFCF-8086F8B5B991}
+	EndGlobalSection
+EndGlobal
